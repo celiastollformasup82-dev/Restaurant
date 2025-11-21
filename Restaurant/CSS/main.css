@@ -1,0 +1,83 @@
+.hero {
+    width: 100%;
+    height: 780px;
+    background-image: url("../images/pexels-wb2008-2290070.jpg");
+    display: flex;
+    justify-content: center;
+    transform: translateY(-10px);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    z-index: 1;
+}
+
+
+.about { color: white;
+    width: 100%;
+    min-height: 90px;
+    margin: 0%;}
+
+.about h1{
+    display: flex;
+    font-family:'Montserrat', sans-serif;
+    font-size: 90px;
+    padding-top: 150px;
+    margin: 0%;
+}
+
+.about h2 {
+    margin: 0;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: "raleway", sans-serif;
+    
+   
+}
+
+section.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 400px;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 60px;
+}
+.colonne1 {
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    font-family: "lato", sans-serif;
+    line-height: 1.6 ;
+    margin: 0%;
+    padding: 0%;
+
+    
+}
+.colonne2 {
+    margin-left: auto; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.colonne2 img {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0; 
+}
+
+section.conclusion {
+    width: 100%;
+    min-height: 80px;
+    margin: 0%;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-bottom: 100px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}

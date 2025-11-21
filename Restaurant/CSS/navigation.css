@@ -1,0 +1,29 @@
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  color: rgb(163, 79, 163);
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(233, 231, 229);
+  text-decoration: underline;
+  }
